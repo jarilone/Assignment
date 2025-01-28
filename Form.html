@@ -3,9 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Altschool form</title>
 </head>
 <body>
-    
+    <div>
+        <form>
+            <div>
+                <h3 class="center">Already an AltScholar? <a href="">Sign In!</a></h2>
+                <h1>Signup</h2>
+                    <p class="fade">take the next steps to apply at Altschool Africa</p>
+            </div>
+            <fieldset>
+                <label for="first-name">First Name <input id="first-name" placeholder="First Name" type="text" /></label>
+                <label for="last-name">Last Name <input id="last-name" placeholder="Last Name" type="text" /></label>
+                <label for="email">Email <input id="email" type="email" placeholder="Email" /></label>
+                <label for="gender">Gender
+                    <select>
+                        <option value="">Select gender</option>
+                        <option value="1">Male</option>
+                        <option value="2">Female</option>
+                    </select>
+                </label>
+                <label for="date-of-birth">Date of Birth <input id="date-of-birth" type="date" /></label>
+                <label for="phone-number">Phone Number <input type="number" placeholder="Phone Number" /></label>
+                <label for="country">Country of Residence <input id="country" placeholder="Country of Residence" type="text" /></label>
+                <label for="state">State of Residence <input id="state" placeholder="State of Residence" type="text" /></label>
+                <label for="password">Password <input id="password" placeholder="Password" type="password" /></label>
+                <label for="confirm-password">Confirm Password <input id="confirm-password" placeholder="Confirm Password" type="password" /></label>
+            </fieldset>
+            <label for="info">How did you hear about us? <input placeholder="Optional: Let us Know how you found us"></textarea></label>
+            <p>By clicking continue, I agree to <a href="">Terms of Use</a> and acknowledge that I have read the <a href="">Privacy Policy</a>.</p>
+            <button>Signup →</button>
+        </form>
+    </div>
 </body>
 </html>
